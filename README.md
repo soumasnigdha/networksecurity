@@ -1,4 +1,4 @@
-### Network Security Project for Phising Data
+### Spam Filtering Network Security ML Project
 
 This project implements an end-to-end machine learning pipeline for network security, specifically designed for potential phishing email detection, with a focus on deployment via a FastAPI API. The original raw data is first pushed to a MongoDB database and then ingested from that database. The pipeline's architecture is structured around distinct components, each with its configuration and artifacts:
  * Data Ingestion Component extracts data from the MongoDB database and produces Data Ingestion Artifacts.
