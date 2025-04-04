@@ -8,6 +8,5 @@ This project implements an end-to-end machine learning pipeline for network secu
  * The project exposes this pipeline's functionality through a FastAPI application. The API provides endpoints for:
     - /train: Triggers the execution of the training pipeline to train, evaluate, and prepare the model for deployment.
     - /predict: Accepts a CSV file as input, uses the preprocessor generated during the Data Transformation stage and the trained model to predict phishing probabilities, and returns the results.
-
-
+ * The experiments are tracked using MLflow to log parameters, metrics, and artifacts providing detailed insights into each run which are stored in DagsHub.
 ![Project Structure](https://github.com/soumasnigdha/networksecurity/blob/main/project_structure.png)
