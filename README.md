@@ -1,6 +1,6 @@
-### Network Security: Phishing Email Detection
+### Network Security: Phishing Link Detection
 
-This project implements an end-to-end machine learning pipeline for network security, specifically designed for potential phishing email detection, with a focus on deployment via FastAPI. The [Phishing Websites Data Set](https://archive.ics.uci.edu/ml/datasets/Phishing+Websites) is first pushed to a MongoDB database and then ingested from that database. The pipeline's architecture is structured around distinct components, each with its configuration and artifacts:
+This project implements an end-to-end machine learning pipeline for network security, specifically designed for potential phishing link detection, with a focus on deployment via FastAPI. The [Phishing Websites Data Set](https://archive.ics.uci.edu/ml/datasets/Phishing+Websites) is first pushed to a MongoDB database and then ingested from that database. The pipeline's architecture is structured around distinct components, each with its configuration and artifacts:
  * Data Ingestion Component extracts data from the MongoDB database and produces Data Ingestion Artifacts.
  * Data Validation Component ensures data quality by validating the ingested data, generating Data Validation Artifacts, including reports on schema consistency and data drift.
  * Data Transformation Component transforms the validated data, handling missing values and feature scaling using a preprocessor, and creating Data Transformation Artifacts, including the preprocessor itself.
