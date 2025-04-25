@@ -4,7 +4,7 @@
 
 This project is a showcase of an end-to-end machine learning pipeline for network security, specifically designed for detecting potential phishing links. It demonstrates the process of data ingestion, validation, transformation, model training, and deployment. While not intended for direct production use, it highlights a modular design and modern ML practices. The trained model is made available for predictions via a FastAPI application. The project emphasizes a modular design, with each component handling a specific stage of the ML workflow. Experiments are tracked using MLflow and DagsHub. The dataset used is the Phishing Websites Dataset, sourced from the UCI Machine Learning Repository: [Phishing Websites Dataset](https://archive.ics.uci.edu/dataset/327/phishing+websites).
 
-A demonstration of the application and its prediction functionality using the Swagger UI can be found here: [Application Demo](https://github.com/soumasnigdha/networksecurity/blob/main/networksecurity_demo.mp4)
+A demonstration of the application and its prediction functionality using the Swagger UI can be found here: ![Application Demo](https://github.com/soumasnigdha/networksecurity/blob/main/network_security_demo.gif)
 
 ## Project Architecture
 
